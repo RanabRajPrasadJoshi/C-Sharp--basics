@@ -11,8 +11,8 @@ class HelloWorld {
     while (total<number){
         Console.Write(total + " ");
         total = val1 + val2;
-        val1 = val2;
-        val2 = total;
+        val2 = val1; 
+        val1 = total;
         
     }
 }
