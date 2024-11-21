@@ -11,12 +11,8 @@ class HelloWorld {
             Console.WriteLine("Table of " + i);
             for(int j =1; j<= number; j++){
                 Console.WriteLine(i + " X " + j + " =  " + i *j);
-            
+	    }
             Console.WriteLine("\n \n");
         }
-
-
-
-
-	}
+    }
 }
