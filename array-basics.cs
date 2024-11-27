@@ -32,7 +32,7 @@ class HelloWorld {
             tempMin = number;
         }
     }
-   Console.WriteLine("Largest number in array is"+ tempMax);
-   Console.WriteLine("Smallest number in array is"+ tempMin);
+   Console.WriteLine("Largest number in array is: "+ tempMax);
+   Console.WriteLine("Smallest number in array is: "+ tempMin);
 }
 }

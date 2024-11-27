@@ -10,13 +10,9 @@ class HelloWorld {
         for(int i = 1 ; i<=number; i++){
             Console.WriteLine("Table of " + i);
             for(int j =1; j<= number; j++){
-                Console.WriteLine(number + " X " + j + " =  " + number*j);
-            }
+                Console.WriteLine(i + " X " + j + " =  " + i *j);
+	    }
             Console.WriteLine("\n \n");
         }
-
-
-
-
-	}
+    }
 }
