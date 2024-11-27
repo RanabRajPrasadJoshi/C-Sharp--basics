@@ -9,11 +9,9 @@ class HelloWorld {
 		string reverse = "";
 		int length =0;
         foreach (char c in word){
-            length++;
+            reverse += word[c];
         }
-        for(int i = length - 1 ; i>=0 ; i--){
-            reverse += word[i];
-        }
+        
         if(word == reverse){
             Console.WriteLine("Palidrome");
         }
